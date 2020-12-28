@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lmlrYXbDJX2NYxgbCrwmj6biAD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\img" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\public\assets\SASS" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\public" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="" />
+      <created>1608210347277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608210347277</updated>
+      <workItem from="1608210348361" duration="14733000" />
+      <workItem from="1608297358015" duration="1313000" />
+      <workItem from="1608301761114" duration="122000" />
+      <workItem from="1608301903118" duration="9324000" />
+      <workItem from="1608555833227" duration="10166000" />
+      <workItem from="1608567422711" duration="15373000" />
+      <workItem from="1608669632915" duration="2596000" />
+      <workItem from="1608728670731" duration="10108000" />
+      <workItem from="1608915946802" duration="1113000" />
+      <workItem from="1608917087854" duration="6931000" />
+      <workItem from="1608980603364" duration="22688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
