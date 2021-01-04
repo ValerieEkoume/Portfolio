@@ -1,27 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="" />
+    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart-sass/sass.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart-sass/src/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart-sass/src/dart.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart-sass/src/sass.snapshot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulaire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/_home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/_home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/home.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="composer.json" />
         <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/altorouter/altorouter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1lmlrYXbDJX2NYxgbCrwmj6biAD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,21 +79,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\view" />
       <recent name="C:\Users\acs\Desktop\JS\Portfolio\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\acs\Desktop\JS\Portfolio\img" />
-      <recent name="C:\Users\acs\Desktop\JS\Portfolio" />
-      <recent name="C:\Users\acs\Desktop\JS\Portfolio\public\assets\SASS" />
-      <recent name="C:\Users\acs\Desktop\JS\Portfolio\public" />
       <recent name="C:\Users\acs\Desktop\JS\Portfolio\views" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\src" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\public" />
+      <recent name="C:\Users\acs\Desktop\JS\Portfolio\styles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,11 +116,30 @@
       <workItem from="1608728670731" duration="10108000" />
       <workItem from="1608915946802" duration="1113000" />
       <workItem from="1608917087854" duration="6931000" />
-      <workItem from="1608980603364" duration="22688000" />
+      <workItem from="1608980603364" duration="35658000" />
+      <workItem from="1609280655682" duration="3580000" />
+      <workItem from="1609330241201" duration="8970000" />
+      <workItem from="1609346377802" duration="12215000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
