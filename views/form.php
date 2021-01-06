@@ -27,7 +27,7 @@ if (array_key_exists('email', $_POST)) {
     //The important thing is not to trust an email adress submitted from the form directly,
     //as an attacker can subtitute their own and try to use your form to send spam
     $adresse = [
-            'val' =>'valerie_ekoume@hotmail.com'
+            'val' =>'val2valprod@gmail.com'
     ];
 
     //validate adress selection before trying to use it
@@ -55,9 +55,9 @@ EOT;
         if ($mail->send()) {
             //The reason for failing to send will be in $mail->ErrorIfo
             //but it is unsafe to display errors directly to users -process the errors, log it on your server
-            $msg = 'Sorry, something went wrong. Please try again later.';
+            $msg = 'Désolé, une erreur est apparue. Veuillez essayer à nouveau un peu plus tard.';
         }else {
-            $msg = 'Message sent! Thank you for contacting us.';
+            $msg = 'Message envoyé! Merci de nous avoir contacté.';
         }
 
     } else {
@@ -75,6 +75,7 @@ EOT;
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap?family=Heebo:wght@100&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/styles/style.css">
     <title>Contact</title>
 </head>
@@ -84,7 +85,7 @@ EOT;
 <body>
 
 
-<h1 class="h1form">SEND ME YOUR MESSAGE</h1>
+<h1 class="h1form">ENVOYEZ NOUS UN P'TIT MESSAGE</h1>
 <div class="msg">
 <?php if (!empty($msg)) {
     echo "<h2>$msg</h2>";
@@ -96,7 +97,7 @@ EOT;
     <input type="text" class="form-control" name="name" id="name"><br>
     </div>
     <div class="md-3">
-    <label for="email" class="form-label">Adresse mail </label>
+    <label for="email" class="form-label">Adresse email </label>
         <input type="email" class="form-control" name="email" id="email">
         <br>
     </div>
@@ -104,20 +105,19 @@ EOT;
     <label for="message" class="form-label">Message</textarea></label>
         <textarea name="message" class="form-control" id="message" rows="8" cols="20"></textarea>
         <br>
-    <!--<label for="dept">Envoyez moi un message</label>-->
+    <label for="dept"></label>
+       <br>
     </div>
 
     <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn " type="button" value="send">Envoyer</button>
+        <input class="btn " type="submit" value="envoyer"></input>
     </div>
-   <!-- <select name="dept" id="dept">
-        <option value="val">Val</option>
-    </select><br>-->
+
 
 
 </form>
 
-
-
 </body>
 </html>
+
+<?php include 'footer.php'; ?>
