@@ -18,14 +18,22 @@
         <div class="cursor"></div>
         <nav>
 
-            <h1 id="logo">V-DesiGn</h1>
+            <h1 id="logo">VDesiGn</h1>
             <img id="logoV" src="logoval2.png" alt="">
             <ul class="nav-links">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="work.php">Projets</a></li>
-                <li><a href="about.php">A propos</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="form.php">Contact</a></li>
             </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                <div class="line4"></div>
+            </div>
+
         </nav>
 
 
@@ -33,7 +41,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
         integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
         crossorigin="anonymous"></script>
-<script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+                integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+                crossorigin="anonymous"></script>
+        <script rel="stylesheet" src="./fullpage.min.js"></script>
+        <script src="app.js"></script>
+
 </body>
 
 </html>

@@ -21,14 +21,21 @@
 <div class="cursor"></div>
 <nav>
 
-    <h1 id="logo">V-DesiGn</h1>
+    <h1 id="logo">VDesiGn</h1>
     <img id="logoV" src="logoval2.png" alt="">
     <ul class="nav-links">
         <li><a href="index.php">Accueil</a></li>
-        <li><a href="work.php">Projects</a></li>
+        <li><a href="work.php">Projets</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="form.php">Contact</a></li>
     </ul>
+
+    <div class="burger">
+       <div class="line1"></div>
+       <div class="line2"></div>
+       <div class="line3"></div>
+       <div class="line4"></div>
+    </div>
 
 </nav>
 
@@ -37,14 +44,13 @@
                 <!--<h1>V-DesiGn</h1>-->
 
                 <h2 class="big-text">Nous mettons notre créativité au service de la votre.</h2>
-                <button class="btn" type="button"><a href="form.php">Contactez-Nous</a> </button>
+                <button class="btn" type="button"><a href="fichier.php">Contactez-Nous</a> </button>
 
             </section>
             <section class="section s2">
-                <h1>Artistes</h1>
+                <h1>VOUS-ÊTES ARTISTE</h1>
                 <div class="description">
-                    <p>Vous gérez votre communication tout seul depuis un moment déjà et vous avez besoin de soutien ?</p>
-                    <p>vous êtes au bon endroit, V-DESIgN vous apporte le soutient dont vous avez besoin plus d'info <a href="">ici</a></p>
+
 
 
                 </div>
@@ -56,11 +62,8 @@
 
             </section>
             <section class="section s3">
-                <h1>Solopreneur</h1>
-                <div class="description3">
-                    <p>Vous gérez votre communication tout seul depuis un moment déjà et vous avez besoin de soutien ?</p>
-                    <p>vous êtes au bon endroit, V-DESIgN vous apporte le soutient dont vous avez besoin plus d'info <a href="">ici</a></p>
-                </div>
+                <h1>VOUS-ÊTES SOLOPRENEUR </h1>
+
 
                 <img src="img/pexels-vlada-karpovich-4050348.jpg" class="picsolo" alt="">
                 <img  src="img/pexels-anthony-shkraba-4348403.jpg" class="picsolo" alt="">
@@ -69,17 +72,27 @@
             </section>
 
             <section class="section s4">
-                <h1>Artisans</h1>
+                <h1>VOUS-ÊTES ARTISAN</h1>
 
                     <div class="description4">
-                        <p>Vous gérez votre communication tout seul depuis un moment déjà et vous avez besoin de soutien ?</p>
-                        <p>vous êtes au bon endroit, V-DESIgN vous apporte le soutient dont vous avez besoin plus d'info <a href="">ici</a></p>
+
+
                     </div>
 
                     <img src="img/pexels-anthony-shkraba-4348078.jpg" class="picart" alt="">
                     <img  src="img/pexels-oleg-magni-890520.jpg" class="picart" alt="">
-                    <img  id="chef" src="img/pexels-taryn-elliott-4457125.jpg" class="picart" alt="">
-                    <img  id="couturiere" src="img/pexels-cottonbro-3738087%20(2).jpg" class="picart" alt="">
+                    <!--<img  id="chef" src="img/pexels-taryn-elliott-4457125.jpg" class="picart" alt="">
+                    <img  id="couturiere" src="img/pexels-cottonbro-3738087%20(2).jpg" class="picart" alt="">-->
+
+            </section>
+
+            <section class="section s5">
+                <h1>NOUS SOMMES A VOTRE DISPOSITION</h1>
+
+            <div class="description5">
+                <p>Vous gérez votre communication tout seul depuis un moment déjà et vous voulez être plus performant ?</p>
+                <p>Vous êtes au bon endroit, V-DESIgN vous apporte le soutien dont vous avez besoin, n'hésitez pas à nous <a href="">contacter.</a></p>
+            </div>
 
             </section>
         </div>
