@@ -44,7 +44,7 @@
                 <!--<h1>V-DesiGn</h1>-->
 
                 <h2 class="big-text">Nous mettons notre créativité au service de la votre.</h2>
-                <button class="btn" type="button"><a href="fichier.php">Contactez-Nous</a> </button>
+                <button class="btn" type="button"><a href="form.php">Contactez-Nous</a> </button>
 
             </section>
             <section class="section s2">

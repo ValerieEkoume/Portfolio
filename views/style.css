@@ -399,17 +399,17 @@ main .about-title  {
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 4rem;
-
+    margin: 70px 50px;
 
 }
 
 
 
 .container  .val{
-        top: 13%;
+
         float: right;
         animation: drop 1.5s ease;
-        /*margin-top: 10%;*/
+        margin-top: 1%;
 
 }
 
@@ -452,8 +452,9 @@ main .about-title  {
 /* FORM */
 
 form{
-    width: 100%;
-    padding: 12px;
+
+    justify-content: center;
+    padding: 50px 70px;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -475,7 +476,8 @@ form label {
 .h1form {
     color: #bc6ff1;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2%;
+    margin-bottom: 1%;
     font-family: "Heebo",sans-serif;
 
 }
@@ -486,21 +488,29 @@ form label {
 }
 
 .form-control {
+
     border: solid #bc6ff1;
     border-radius: 5px;
     height: 5rem;
+    padding-right: 50%;
+
+}
+.mb-4 textarea{
+    height: 115px !important;
+
+
 }
 
 
+form .btn  {
 
-input[type=submit] {
+    margin: 2% 45%;
     background-color: #bc6ff1;
+    padding: 10px 25px;
     color: #2c003e;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+
 
 }
 
@@ -509,31 +519,7 @@ input[type=submit] {
 }
 
 /* Style the container */
-.container {
-    border-radius: 5px;
-    padding: 50px;
-}
 
-/* Floating column for labels: 25% width */
-.col-25 {
-    float: left;
-    width: 15%;
-    margin-top: 6px;
-}
-
-/* Floating column for inputs: 75% width */
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 
 /* FOOTER*/
@@ -553,10 +539,12 @@ footer.bottom{
 
 footer a {
     color: #fe346e;
+    font-size: 20px;
 }
 
 footer a :hover {
     color: #fe346e;
+
 }
 
 footer p {
@@ -637,14 +625,14 @@ footer h5 {
     }
 
     .work .container {
+        display: flex;
+        flex-direction: column;
+        margin-right: -12%;
 
     }
 
-
-
     #bello  {
         width: 75%;
-        justify-content: center;
 
     }
 
@@ -703,7 +691,7 @@ footer h5 {
     }
 
    .nav-links  li{
-        opacity: 0;
+      /*opacity: 0;*/
 
     }
     .burger {
@@ -711,10 +699,30 @@ footer h5 {
         cursor: pointer;
     }
 
-    .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
+
+
+   .work h1 {
+       font-size: 0.5rem;
+   }
+
+    .h1form {
+       font-size: 1.5rem;
+   }
+
+    form {
+        width: 90%;
     }
+
+    .form-label {
+        font-size: 1.5rem;
+    }
+
+   form .btn {
+       width: 20%;
+       margin: inherit;
+       font-size: 1rem;
+
+   }
 
 }
 
@@ -733,6 +741,11 @@ footer h5 {
     }
 
 }
+
+
+
+
+
 
 
 

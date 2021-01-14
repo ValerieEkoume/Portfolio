@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="-m &quot;modif home + form&quot;">
-      <change afterPath="$PROJECT_DIR$/views/fichier.php" afterDir="false" />
+    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="-m &quot;improvement @mediaquery +js&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/fichier.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/fichier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/work.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/work.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
@@ -105,7 +103,8 @@
       <workItem from="1609330241201" duration="8970000" />
       <workItem from="1609346377802" duration="13935000" />
       <workItem from="1609764644379" duration="64007000" />
-      <workItem from="1610026276134" duration="67995000" />
+      <workItem from="1610026276134" duration="72070000" />
+      <workItem from="1610614561074" duration="18397000" />
     </task>
     <task id="LOCAL-00001" summary="-m &quot;modification + new header&quot;">
       <created>1609757453967</created>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609954936849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-m &quot;improvement @mediaquery +js&quot;">
+      <created>1610570465905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610570465905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +148,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-m &quot;modification + new header&quot;" />
     <MESSAGE value="-m &quot;modif home + form&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="-m &quot;modif home + form&quot;" />
+    <MESSAGE value="-m &quot;improvement @mediaquery +js&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-m &quot;improvement @mediaquery +js&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
