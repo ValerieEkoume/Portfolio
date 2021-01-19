@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="-m &quot;improvement @mediaquery +js&quot;">
+    <list default="true" id="80827f65-03a2-4801-a19c-3ad8736c8f3a" name="Default Changelist" comment="-m &quot;modif form improvmt responsive&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/fichier.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/fichier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
     </list>
@@ -18,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -104,7 +107,12 @@
       <workItem from="1609346377802" duration="13935000" />
       <workItem from="1609764644379" duration="64007000" />
       <workItem from="1610026276134" duration="72070000" />
-      <workItem from="1610614561074" duration="18397000" />
+      <workItem from="1610614561074" duration="18537000" />
+      <workItem from="1610652436025" duration="575000" />
+      <workItem from="1610653103000" duration="17355000" />
+      <workItem from="1610827578952" duration="3829000" />
+      <workItem from="1610955388218" duration="14885000" />
+      <workItem from="1611043668884" duration="4673000" />
     </task>
     <task id="LOCAL-00001" summary="-m &quot;modification + new header&quot;">
       <created>1609757453967</created>
@@ -127,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610570465905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-m &quot;modif form improvmt responsive&quot;">
+      <created>1610639937550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639937550</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +164,8 @@
     <MESSAGE value="-m &quot;modification + new header&quot;" />
     <MESSAGE value="-m &quot;modif home + form&quot;" />
     <MESSAGE value="-m &quot;improvement @mediaquery +js&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="-m &quot;improvement @mediaquery +js&quot;" />
+    <MESSAGE value="-m &quot;modif form improvmt responsive&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-m &quot;modif form improvmt responsive&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

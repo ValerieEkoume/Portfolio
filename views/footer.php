@@ -1,5 +1,8 @@
 <?php ?>
+
+
 <script src="https://kit.fontawesome.com/31cfd28a45.js" crossorigin="anonymous"></script>
+
 <footer class="bottom">
     <div class="footer-bottom-tex">
         <div class="segment-three">

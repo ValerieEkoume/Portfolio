@@ -1,13 +1,15 @@
 
+// HEADER + HOME MENU RESPONSIVE
 const navSlide = () => {
+
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
 
     burger.addEventListener('click',() => {
-        //Toggle Nav
+        //La Nav bascule en mode burger en fonction du Viewport
         nav.classList.toggle('nav-active');
-        //Animate Links
+        //Animation des liens, apparaissent en décalage
         navLinks.forEach((link, index)=> {
             if(link.style.animation) {
                 link.style.animation = ''
@@ -17,21 +19,23 @@ const navSlide = () => {
 
         });
     });
-
-
 }
 
 navSlide();
 
 
+
+
+// HOME : ANIMATION SCROLLING
+//GSAP https://cdnjs.com/libraries/gsap
 new fullpage('#fullpage', {
     autoScrolling: true,
     navigation: true,
     onLeave: (origin,destination,direction) =>{
-      const section = destination.item
+        const section = destination.item
         const title = section.querySelector('h1');
-      const tl = new TimelineMax({delay: 0.5});
-      tl.fromTo(title,0.5, {y: '50', opacity: 0}, {y:0, opacity:1})
+        const tl = new TimelineMax({delay: 0.5});
+        tl.fromTo(title,0.5, {y: '50', opacity: 0}, {y:0, opacity:1})
 
         if (destination.index === 1){
             const pic = document.querySelectorAll(".pic")
@@ -42,8 +46,10 @@ new fullpage('#fullpage', {
                 .fromTo(pic[1], 1, {opacity:0}, {opacity: 1})
                 .fromTo(pic[2], 1, {opacity:0}, {opacity: 1})
                 .fromTo(pic[3], 1, {opacity:0}, {opacity: 1})
+                .fromTo(pic[4], 1, {opacity:0}, {opacity: 1})
+
         }
-        if (destination.index === 2){
+        /*if (destination.index === 2){
             const picsolo = document.querySelectorAll(".picsolo")
             const description3 = document.querySelector(".description3")
             tl.fromTo(picsolo,0.7, { x: "100%"}, { x: "-35%"})
@@ -64,15 +70,17 @@ new fullpage('#fullpage', {
                 .fromTo(picart[2], 1, {opacity:0}, {opacity: 1})
                 .fromTo(picart[3], 1, {opacity:0}, {opacity: 1})
 
-        }
-
+        }*/
 
 
     }
 
-
 })
 
+
+
+
+// ANIMATION SOURIS
 let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelectorAll(".nav-links li")
 
@@ -99,5 +107,19 @@ const tl = gsap.timeline({defaults: {ease: "power1.out"}});
 tl.to('.text', {y: "0%", duration: 1, tagger:0.25});
 tl.to('.slider', {y: "-100%", duration:1.5, delay: 0.5});
 tl.to('.intro', {y: "-100%", duration: 1}, "-=1");
+tl.fromTo('.big-text', {opacity: 0}, {opacity: 1, duration: 1}, '-=1');
 
-tl.fromTo('.big-text', {opacity: 0}, {opacity: 1, duration: 1});
+// ERROR ALERT FORM - EMPTY INPUTS
+var email = document.querySelector('input.exemple');
+    email.oninvalid = function(e) {
+        e.target.setCustomValidity("");
+        if (!e.target.validity.valid) {
+            if (e.target.value.length == 0) {
+                e.target.setCustomValidity("Ce champ est obligatoire");
+        } else {
+            e.target.setCustomValidity("Entrez une adresse valide. Exemple : contact@nom.com");
+        }
+    }
+};
+
+
